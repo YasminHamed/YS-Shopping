@@ -1,0 +1,18 @@
+.img-hover-zoom {
+    height: 300px;
+    overflow: hidden; 
+}
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+.img-hover-zoom:hover img {
+    transform: scale(1.1);
+}
+.load{
+    position: absolute;
+    left: 100px;
+}
+.loadd{
+    position: absolute;
+    left: 60px;
+}

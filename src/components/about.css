@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px 30px;
+    width: 800px;
+    box-shadow: 0 0 5px black;
+}
+.aboutt {
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.mission-txt {
+    font-size: 18px;
+    font-weight: 500px;
+    font-style: italic;
+    margin-top: 0;
+}
+.des .imoge {
+    width: 150px;
+    filter: drop-shadow(0 10px 5px black);
+}
+.loremm {
+    text-align: justify;
+}
+.faculties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.unit {
+    margin: 25px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.unit .imoge {
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.unit .loremm {
+    text-align: left;
+    margin: 2px;
+}
+.unit .loremm:first-of-type {
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+@media screen and (max-width:820px) {
+    .wrapper {
+      width: 80%;
+      padding: 5px 30px;
+    }
+}
